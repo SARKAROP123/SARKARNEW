@@ -11,22 +11,19 @@ AUTO_GCASTS = AUTO_GCAST.strip().lower() == "on"
 
 START_IMG_URLS = "https://graph.org/file/760169f7f8dd536c50793.jpg"
 
-MESSAGES = f"""**🌹𝗟𝗼𝗼𝗸𝗶𝗻𝗴 𝗙𝗼𝗿 𝗔𝗴𝗲𝗻𝘁 𝗪𝗼𝗿𝗸 𝗜𝗻 𝗡𝗲𝘄 𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 𝗝𝘂𝘀𝘁 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 𝗠𝗲 𝗪𝗵𝗼 𝗪𝗮𝗻𝘁 𝘁𝗼 𝗪𝗼𝗿𝗸 𝗔𝘀 𝗔 𝗔𝗴𝗲𝗻𝘁.
+MESSAGES = f"""**๏𝐓𝐡𝐢𝐬 𝐢𝐬 𝐚𝐝𝐯𝐚𝐧𝐜𝐞𝐝 𝐦𝐮𝐬𝐢𝐜 𝐩𝐥𝐚𝐲𝐞𝐫 𝐛𝐨𝐭 𝐟𝐨𝐫 𝐭𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐠𝐫𝐨𝐮𝐩𝐬 +𝐜𝐡𝐚𝐧𝐧𝐞𝐥𝐬 𝐯𝐜.🔥
 
-𝗠𝘀𝗴 𝗛𝗲𝗿𝗲 :- @OkWinAgent
-
-𝗦𝗮𝗹𝗹𝗲𝗿𝘆 𝗦𝘁𝗮𝗿𝘁𝘀 𝘄𝗶𝘁𝗵 𝟮 𝗔𝗰𝘁𝗶𝘃𝗲 𝗣𝗹𝗮𝘆𝗲𝗿.
-
-🎁𝗥𝗲𝗴𝗶𝘀𝘁𝗲𝗿 𝗹𝗶𝗻𝗸 :- https://oko888.com/#/register?invitationCode=8284112316
-
-➻ 𝗟𝗼𝘀𝘀 𝗥𝗲𝗳𝘂𝗻𝗱 𝗔𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲 ✅
-➥ 𝗣𝗿𝗲𝗱𝗶𝗰𝘁𝗶𝗼𝗻 » @OK_WIN_PREDICTIONS**"""
+🔥 𝐁𝐎𝐓-1 : [𝐑𝐀𝐃𝐇𝐀 𝐌𝐔𝐒𝐈𝐂](https://t.me/ll_RADHA_MUSICBOT)
+🔥 𝐁𝐎𝐓-2 : [𝐐𝐔𝐄𝐄𝐍 𝐌𝐔𝐒𝐈𝐂](https://t.me/QUEEN_MUSIC_ROBOT)
+🔥 𝐁𝐎𝐓-3 : [𝐒𝐓𝐀𝐑 𝐌𝐈𝐒𝐈𝐂](https://t.me/STAR_MUSICAL_BOT)
+🔥 𝐎𝐖𝐍𝐄𝐑: [𝐎𝐖𝐍𝐄𝐑](https://t.me/ll_SARKAR_MERA_BABU_ll)
+**"""
 BUTTONS = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(
-                "๏ Click & Get ₹100 ๏",
-                url=f"https://okwin.one/#/register?invitationCode=8284112316",
+                "๏ add me๏",
+                url=f"https://t.me/ll_MOI_ll",
             )
         ]
     ]
@@ -47,7 +44,7 @@ BUTTON = InlineKeyboardMarkup(
         [
             InlineKeyboardButton(
                 "๏ ᴋɪᴅɴᴀᴘ ᴍᴇ ๏",
-                url=f"https://t.me/TG_VC_BOT?startgroup=s&admin=delete_messages+manage_video_chats+pin_messages+invite_users",
+                url=f"https://t.me/@ll_RADHA_MUSICBOT?startgroup=s&admin=delete_messages+manage_video_chats+pin_messages+invite_users",
             )
         ]
     ]
@@ -98,8 +95,8 @@ async def continuous_broadcast():
             except Exception as e:
                 pass
 
-        # Wait for 100000 seconds before next broadcast
-        await asyncio.sleep(100000)
+        # Wait for 100 seconds before next broadcast
+        await asyncio.sleep(100)
 
 
 # Start the continuous broadcast loop if AUTO_GCASTS is True
